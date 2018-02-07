@@ -3,6 +3,7 @@
 <head>
     <title>Mad libs</title>
     <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 
@@ -16,8 +17,8 @@
     </nav>
     <section>
     <form action="onkundestory.php" method="post">
-        <h2>Onkunde </h2>
-        <p>Wat zou je graag willen kunnen? <input type="text" name="vaardigheid" >'</p>
+        <h2>Onkunde</h2>
+        <p>Wat zou je graag willen kunnen? <input type="text" name="vaardigheid" ></p>
         <p>Met welke persoon kun je goed opschieten? <input type="text" name='goedpersoon'></p>
         <p>Wat is je favoriete getal? <input type="text" name="getal"> </p>
         <p>Wat heb je altijd bij je als je op vakantie gaat? <input type="text" name="voorwerp"></p>
@@ -27,6 +28,6 @@
     
         <button type='submit' class='button'>verstuur</button>  
     </form> 
-</section>
+    </section>
 </body>
 </html>

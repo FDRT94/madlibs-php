@@ -1,8 +1,13 @@
+*{
+padding:0;
+margin:0;
+}
+
 body {
     background-color: rgb(78, 78, 78);
     font-family: sans-serif;
     margin: 0 auto;
-    max-width: 550px;
+    width:620px;
 }
 
 nav {
@@ -29,39 +34,47 @@ a {
 
 section {
     background-color: white;
+    padding-bottom:40px;
 }
 
 
 h1 {
     color: white;
-    text-shadow: 1px 2px black;
-    text-align: center;
+    text-shadow: 2px 5px black;
+    font-family: 'Lobster', cursive;
+    font-size:70px;
+    margin-bottom:2px;
 }
 
 h2 {
     margin: 0;
-    padding: 20px;
+    padding: 5px 0px 5px 20px;
     font-size: 25px;
 }
 
 p {
-    width: 90%;
-    padding: 0 10px;
+    width: 100%;
+    padding:2px 2px 2px 20px;
     display: inline-block;
 }
 
+input {
+position: absolute;
+left:860px;
+}
+
 .button {
-    margin-top: 20px;
-    margin-bottom:25px;
-    position: relative;
-    align-items: center;
+    margin-top: 10px;
+    position: absolute;
+    left:860px;
 }
 
 footer {
     background-color: rgb(48, 47, 47);
-    color: white;
-    bottom: 0;
-    position: relative;
+    color: grey;
     width: 100%;
+    height:35px;
     text-align: center;
+    position: relative;
+    line-height:2em;
 }

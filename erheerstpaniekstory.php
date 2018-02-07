@@ -3,6 +3,7 @@
 <head>
     <title>Mad Libs</title>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     
 </head>
@@ -30,8 +31,7 @@
    <p>'Maar Sire, daar kunt u toch uw <?=$_POST['aankopen'] ?> voor gebruike.' </p>
    <p>'<?=$_POST['persoon'] ?>', je hebt helemaal gelijk! Wat zou ik doen als ik jou niet had.'</p>
    <p>'<?=$_POST['hobby'] ?> Sire.'</p>
-    </section>
-
+   </section>
    <footer>de site is gemaakt door <?= $_POST['persoon'] ?></footer>
 </body>
 </html>
